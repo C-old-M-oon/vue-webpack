@@ -1,0 +1,16 @@
+1、npm init 初始化项目
+2、npm install i webpack vue vue-loader css-loader vue-template-compiler 安装包
+3、初始化项目目录：新建src，APP.vue
+4、初始化webpack配置: 新建webpack.config.js
+5、指定入口出口：新建main.js、dist/index.js
+6、更改package.json的配置文件，指定webpack的编译路径
+7、配置webpack.config.js，添加文件解析规则: vue-loader、css-loader、style-loader、stylus-loader、url-loader、file-loader等
+8、配置webpack-dev-server：安装webpack-dev-server并在package.json里面配置run dev命令
+9、安装cross-env包，区分开发环境和生产环境
+10、安装html-webpack-plugin，在webpack-config.js里面配置并添加主页入口index.html
+11、增加webpack-dev-server配置，使其热重载：config.plugins.push，局部更新，不需要全局刷新
+12、完善安装其他必需依赖 postcss-loader、autoprefixer、babel-loader、babel-core
+13、根据提示安装其他依赖并完善postcss.config.js和babellrc文件
+14、组件编写
+15、组件业务开发完成，webpack打包优化
+16、将框架代码单独打包

@@ -1,0 +1,32 @@
+/* 
+* @Author: leeZ
+* @Date:   2018-03-29 10:16:46
+* @Last Modified by:   leeZ
+* @Last Modified time: 2018-03-29 15:21:26
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+  background-position: cover;
+  font-size: 14px;
+  font-weight: 300;
+}
